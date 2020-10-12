@@ -451,9 +451,6 @@ input[type=range]::-ms-fill-lower {
     color: #C4C4C4;
 }
 
-.fill>svg {
-    fill: #fff !important;
-}
 
 .rating-1>svg {
     fill: #C4C4C4;
@@ -461,6 +458,18 @@ input[type=range]::-ms-fill-lower {
 
 .rating-2>svg {
     fill: #C4C4C4;
+}
+
+.rating-2>svg:nth-last-child(1) {
+    fill: #ffffff;
+}
+
+.rating-3>svg:nth-last-child(2) {
+    fill: #ffffff;
+}
+
+.rating-3>svg:nth-last-child(1) {
+    fill: #ffffff;
 }
 
 .rating-3>svg {
@@ -518,20 +527,6 @@ input[type=range]::-ms-fill-lower {
 }
 
 
-/*
-
-.product-price-wishlist {
-    height: 18px;
-    left: 36.02%;
-    right: 25.81%;
-    top: calc(50% - 18px/2 + 0.5px);
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 18px;
-    color: #2C2C2C;
-}*/
 
 .h2-cards{
     font-family: Montserrat;
@@ -539,9 +534,6 @@ font-style: normal;
 font-weight: normal;
 font-size: 24px;
 line-height: 29px;
-/* identical to box height, or 121% */
-
-
 color: #2C2C2C;
 }
 
